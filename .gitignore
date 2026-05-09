@@ -3,3 +3,9 @@ __pycache__/
 .DS_Store
 *.pth
 *.npy
+
+# Allow the trained Reacher checkpoints to be committed (small files)
+!reacher_actor.pth
+!reacher_critic.pth
+!reacher_scores.npy
+!reacher_training_curve.png
